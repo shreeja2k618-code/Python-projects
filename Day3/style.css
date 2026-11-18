@@ -1,0 +1,99 @@
+body {
+    font-family: Times New Roman;
+    background-color: #f0f4f8;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+h2 {
+    color: red ;
+    border-bottom: 2px solid #1d5d8f;
+    padding-bottom: 8px;
+}
+h4 {
+    color: black;
+}
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 15px auto;
+}
+p {
+    font-size: 16px;
+    color: black;
+}
+ul {
+    color: black;
+    line-height: 1.0;
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px 0;
+    background-color: white;
+}
+th {
+    background-color: #123c69;
+    color: white;
+    padding: 12px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black ;
+}
+form {
+    background-color: lightblue;
+    width: 50%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+    margin: 20px auto;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #123c69;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+input:focus, select:focus, textarea:focus {
+    border: 2px solid #1d5d8f;
+    outline: none;
+}
+button {
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #1d5d8f;
+}
+hr {
+    border: 1px solid #ccc;
+    margin: 25px 0;
+}

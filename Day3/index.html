@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>College Information Portal</title>
+</head>
+<body>
+    <center> <h1>ABC College of Engineering </h1></center>
+    <img src="img.jpg" width="400" height="200">
+    <h4>Our college provides a with modern laboratories and experienced faculty .</h4>
+    <ul> <h2>Branches:</h2>
+        <p>->Computer Science and Engineering</p>
+        <p>->Electronics and Communication Engineering</p>
+        <p>->Data Science</p>
+        <p>->Aeronautical engineering</p>
+        <p>->Information Technology<p>
+    </ul>
+     <table>
+        <tr>
+            <th>Course</th>
+            <th>Duration</th>
+        </tr>
+
+        <tr>
+            <td>B.Tech</td>
+            <td>4 Years</td>
+        </tr>
+
+        <tr>
+            <td>M.Tech</td>
+            <td>2 Years</td>
+        </tr>
+    </table>
+        <hr>
+    <h2 id="admissions">Admission Information</h2>
+        <p>Eligibility: 10+2 or equivalent</p>
+        <p>Application: Online/Offline</p>
+        <p>Selection: Based on eligibility criteria</p>
+    <hr>
+    <h2 id="contact">Contact Us</h2>
+    <p>Address: ABC College, Bengaluru, Karnataka</p>
+    <p>Email: info@abccollege@gmail.com</p>
+    <p>Phone: 9876543210</p>
+    <hr>
+    <h2>Student Enquiry Form</h2>
+    <form id="enquiryForm">
+    <label>Student Name:</label>
+    <input type="text" id="name">
+    <br>
+    <label>Email:</label>
+    <input type="text" id="email">
+    <br>
+    <label>Mobile Number:</label>
+    <input type="text" id="mobile">
+    <br>
+    <label>Department:</label>
+    <select id="department">
+        <option value="">Select Department</option>
+        <option value="B.Tech">Bachelor of Engineering</option>
+        <option value="M.Tech">Master of Engineering</option>
+    </select>
+    <br>
+    <label>Branch:</label>
+    <select id="branch">
+        <option value="">Select Branch</option>
+        <option value="CSE">Computer Science</option>
+        <option value="ECE">Electronics</option>
+        <option value="DS">Data Science</option>
+        <option value="AE">Aeronautical</option>
+        <option value="IT">Information Technology</option>
+    </select>
+    <br>
+    <label>Message:</label>
+    <textarea id="message"></textarea>
+    <br>
+    <button type="submit">Submit Enquiry</button>
+</form>
+<script src="validation.js"></script>
+</body>
+</html>
